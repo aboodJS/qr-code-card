@@ -40,7 +40,7 @@ body {
 
 p {
   font-size: 15px;
-
+  scale: 0.8;
   text-align: center;
 }
 
@@ -48,13 +48,18 @@ p {
   justify-content: center;
   align-content: space-evenly;
   border-radius: 12px;
-  height: 60vh;
-  width: 18rem;
+  height: 55vh;
+  width: 14rem;
 
   background-color: var(--White);
 }
 
+h4 {
+  text-align: center;
+}
+
 #qr-code {
+  scale: 1;
   justify-self: center;
   border-radius: 12px;
   background-image: url("./images/image-qr-code.png");
